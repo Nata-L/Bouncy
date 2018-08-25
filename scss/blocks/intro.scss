@@ -1,0 +1,38 @@
+.intro {
+	background-image: url(../../img/intro-bg.jpg);
+}
+
+.bg-layout {
+	background-color: $background-color--intro;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 50%;
+}
+
+.intro__content-container {
+	padding-top: 40px;
+	padding-bottom: 55px;
+	color: $color--light;
+}
+
+.intro__text-wrap {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	width: 55%;
+	margin: 0 auto;
+}
+
+.intro__title {
+	font-size: 35px;
+	color: $color--light;
+}
+
+.intro__text {
+	font-family: $font-family--main;
+	font-size: 16px;
+	font-weight: $font-weight--main;
+	line-height: 1.75;
+	margin-top: 35px;
+	letter-spacing: $letter-spacing--main;
+}
+

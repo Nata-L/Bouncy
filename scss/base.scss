@@ -1,0 +1,67 @@
+body {
+	font-family: $font-family--main;
+	font-size: $font-size--main;
+	font-weight: $font-weight--main;
+	color: $color--main;
+	letter-spacing: $letter-spacing--main;
+	line-height: $line-height--main;
+	background-color: $background-color--main;
+	margin: 0;
+	padding: 0;
+	min-width: 1150px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	font-family: inherit;
+	color: inherit;
+
+}
+
+li {
+	list-style: none;
+	margin: 0;
+}
+
+p, h1, h2, h3 {
+	margin: 0;
+}
+
+ul, li {
+	padding-left: 0;
+	margin: 0;
+}
+
+.flex-container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex!important;
+}
+
+.content-container {
+	margin: 0 auto;
+	width: 1150px; 
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+.section-title {
+	font-family: $font-family--section-title;
+	font-weight: $font-weight--section-title;
+	color: $color--section-title;
+	text-transform: uppercase;
+	font-size: $font-size--section-title;
+	letter-spacing: $letter-spacing--section-title;
+	line-height: 1.2;
+}
+

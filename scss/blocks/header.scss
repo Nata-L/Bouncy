@@ -1,0 +1,43 @@
+.header-container {
+	justify-content: space-between;
+	width: 1170px;
+	color: $color--light;
+}
+
+.logo {
+	font-family: $font-family--logo;
+	color: $color--light;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: $font-weight--main;
+}
+
+.main-nav {
+	width: 29%;
+}
+
+.main-nav__list {
+	width: 100%;
+	justify-content: space-between;
+}
+
+.main-nav__link {
+	font-family: $font-family--main;
+	display: inline-block;
+	width: 80px;
+	height: 33px;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	line-height: 2.3;
+
+	&--active {
+		border: 1px solid $color--light;
+	}
+
+	&:hover {
+		border: 1px solid $color--light;
+	}
+}
+
+
+

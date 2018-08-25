@@ -1,0 +1,15 @@
+.scroll {
+	display: block;
+	width: 36px;
+	height: 36px;
+	background-color: #19bd9a;
+	background-image: url('../../img/scroll.png');
+	border-radius: 50%;
+	margin: 15px auto 20px;
+}
+
+.scroll:hover::after {
+	// transform: translateY(10px);
+	// transform: scaleY(1.2);
+	transition: all .3s ease-in;
+}
