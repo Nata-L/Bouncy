@@ -1,0 +1,16 @@
+.portfolio-grid {
+  max-width: 1200px; }
+
+.portfolio-grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.portfolio-grid__item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: #D26;
+  border: 2px solid #333;
+  border-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px; }
